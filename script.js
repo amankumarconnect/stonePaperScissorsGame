@@ -125,5 +125,5 @@ function playGame(playerMove){
     updateScoreElement();
 
     document.querySelector('.js-result').innerHTML = result;
-    document.querySelector('.js-moves').innerHTML = `(You) <img src="images/${playerMove}.png" alt="${playerMove}" class="move-icon"> (Computer) <img src="images/${computerMove}.png" alt="${computerMove}" class="move-icon">`;
+    document.querySelector('.js-moves').innerHTML = `(You) <img src="./images/${playerMove}.png" alt="${playerMove}" class="move-icon"> (Computer) <img src="./images/${computerMove}.png" alt="${computerMove}" class="move-icon">`;
 }
